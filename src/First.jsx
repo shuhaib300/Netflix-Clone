@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import './App.css'
 import {Button, Dropdown, Form} from 'react-bootstrap'
-import {FaGlobe, FaPlus} from 'react-icons/fa'
+import {FaGlobe, FaGreaterThan, FaPlus} from 'react-icons/fa'
 
 function first() {
   return (
@@ -13,7 +13,7 @@ function first() {
       <div className='navbar'>
         <img className='logo' src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="Logo" />
                 
-    <Dropdown className='lang'>
+    
       <Dropdown.Toggle className='lang' id="dropdown-basic">
       <FaGlobe className='globe'/>English
       </Dropdown.Toggle>
@@ -22,7 +22,7 @@ function first() {
         <Dropdown.Item className='langlist' href="#/hindi">Hindi</Dropdown.Item>
         <Dropdown.Item className='langlist' href="#/malayalam">Malayalam</Dropdown.Item>
       </Dropdown.Menu>
-    </Dropdown>  
+    
     <Button style={{backgroundColor:"#e50914", borderBlockColor:"#e50914", borderColor:"#e50914"}} className='btn'>Sign In</Button>
     </div>
     
@@ -45,7 +45,7 @@ function first() {
               className="me-2"
               aria-label="Search"
             />
-            <Button className='emailbutton' variant="outline-success">Get started</Button>
+            <Button className='emailbutton' variant="outline-success">Get started</Button><FaGreaterThan className='greater'/>
           </Form>  
         </div>              
         </div>
@@ -98,15 +98,49 @@ function first() {
               className="me-2"
               aria-label="Search"
             />
-            <Button className='emailbutton2' variant="outline-success">Get started</Button>
+            <Button className='emailbutton2' variant="outline-success">Get started</Button><FaGreaterThan className='greater'/>
           </Form>                
         </div>
 
         <div className="line"></div>
 
         <div className="footer">
-          <h1 className='content4'></h1>
-          <h3 className='content5'></h3>
+          <h1 className='content11'>Questions? Call 000-800-919-1694</h1>
+          <h3 className='content12'>FAQ</h3>
+          <h3 className='content12'>Account</h3>
+          <h3 className='content12'>Jobs</h3>
+          <h3 className='content12'>Privacy</h3>
+          <h3 className='content12'>Contact Us</h3>
+          <h3 className='content12'>Only on Netflix</h3>
+          <div className='ftrcntnt1'>
+          <h3 className='content13'>Gift Card Terms</h3>
+          <h3 className='content13'>Media Centre</h3>
+          <h3 className='content13'>Ways to Watch</h3>
+          <h3 className='content13'>Cookie Preferences</h3>
+          <h3 className='content13'>Speed Test</h3>
+          </div>
+          <div className='ftrcntnt2'>
+          <h3 className='content14'>Help Centre</h3>
+          <h3 className='content14'>Investor Relations</h3>
+          <h3 className='content14'>Terms of Use</h3>
+          <h3 className='content14'>Corporate Information</h3>
+          <h3 className='content14'>Legal Notices</h3>
+          </div>
+          <div className='ftrlang'>
+          {/* <Dropdown className='lang'> */}
+      <Dropdown.Toggle className='lang' id="dropdown-basic">
+      <FaGlobe className='globe'/>English
+      </Dropdown.Toggle>
+      <Dropdown.Menu className='langlist'>
+        <Dropdown.Item className='langlist' href="#/english">English</Dropdown.Item>
+        <Dropdown.Item className='langlist' href="#/hindi">Hindi</Dropdown.Item>
+        <Dropdown.Item className='langlist' href="#/malayalam">Malayalam</Dropdown.Item>
+      </Dropdown.Menu>
+    {/* </Dropdown>   */}
+          </div>
+          <div className='ftrcntnt3'>
+          <h3 className='content15'>Netflix India</h3>
+          </div>
           
         </div>
 

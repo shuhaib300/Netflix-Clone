@@ -47,6 +47,11 @@ margin-left: 37px;
   height: 15px;
   padding-bottom: 2px;
 }
+.greater{
+  margin-top: 30px;
+  margin-left: -80px !important;
+  color: white;
+}
 .content{
 padding-top: 123px;
 padding-left: 449px;
@@ -58,7 +63,6 @@ font-weight: 700px;
     max-width: 800px;
     font-weight: 900px;
     padding-bottom: 0.3rem;
-    
   }
   .content2{
     font-size: 1.5rem;
@@ -77,9 +81,8 @@ font-weight: 700px;
   margin-top: -205px;
   margin-left: 388px;
   height: 70px;
-  width: 800px;
+  width: 780px;
   border-radius: 0 !important;
-
 }
 .emailbutton{
   margin-top: 0px;
@@ -87,7 +90,7 @@ font-weight: 700px;
   background-color: #e50914 !important;
   color: rgb(242, 240, 240) !important;
   height: 70px;
-  width: 390px;
+  width: 350px;
   border-color: #e50914 !important;
   border-radius: 0 !important;
   font-size: 33px !important;
@@ -220,7 +223,10 @@ font-weight: 700px;
   padding-left: 23px;
   padding-top: 24px;
   font-size: 24px;
-  
+  cursor: pointer;
+}
+.faqbox:hover{
+background-color: rgb(89, 88, 88);
 }
 .search2{
   margin-top: 35px;
@@ -256,4 +262,49 @@ font-weight: 700px;
   width: 100%;
   height: 488px;
   background-color: black;
+  padding-top: 63px;
 }
+.content11{
+  margin-left: 175px;
+  margin-bottom: 37px;
+  color: rgb(190, 186, 186);
+  font-size: 17px;
+}
+.content12{
+  margin-left: 175px;
+  margin-bottom: 15px;
+  color: rgb(190, 186, 186);
+  font-size: 15px;
+}
+.ftrcntnt1{
+margin-top: -194px;
+}
+.content13{
+  margin-left: 570px;
+  margin-bottom: 15px;
+  color: rgb(190, 186, 186);
+  font-size: 15px;
+}
+.ftrcntnt2{
+  margin-top: -166px;
+  }
+  .content14{
+    margin-left: 963px;
+    margin-bottom: 15px;
+    color: rgb(190, 186, 186);
+    font-size: 15px;
+  }
+  .ftrcntnt3{
+    margin-top: 18px;
+    }
+    .ftrlang{
+      margin-top: 30px;
+      margin-left: 175px;
+    }
+    .content15{
+      margin-left: 175px;
+      margin-bottom: 15px;
+      color: rgb(190, 186, 186);
+      font-size: 15px;
+    }
+   
